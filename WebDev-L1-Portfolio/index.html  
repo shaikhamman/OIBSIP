@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaikh Mohammad Amman — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#home" class="logo">Portfolio</a>
+      <nav aria-label="Portfolio Navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-wrap">
+        <div class="avatar" aria-label="Profile Avatar">SMA</div>
+        <div>
+          <p class="role">Front-End &amp; Web Developer</p>
+          <h1>Shaikh Mohammad Amman</h1>
+          <p class="tagline">Building clean, responsive interfaces and practical web projects.</p>
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="about-text">
+          I am a computer applications student passionate about front-end web development, clean UI structure, and problem solving. I enjoy turning ideas into responsive, accessible websites and continuously improving my technical skills through hands-on projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">HTML5 &amp; Semantic Markup</div>
+          <div class="skill-item">CSS3, Flexbox &amp; Grid</div>
+          <div class="skill-item">JavaScript (Vanilla)</div>
+          <div class="skill-item">Responsive Web Design</div>
+          <div class="skill-item">Git &amp; GitHub</div>
+          <div class="skill-item">Basic UI Structure</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Landing Page Project</h3>
+            <p>A responsive static landing page built with HTML5 and CSS3 featuring sticky navigation and modern layout structure.</p>
+            <a href="https://github.com/shaikhamman/OIBSIP/tree/main/WebDev-L1-LandingPage" target="_blank" rel="noopener noreferrer">GitHub Link →</a>
+          </article>
+          <article class="project-card">
+            <h3>Temperature Converter Web App</h3>
+            <p>An interactive tool converting Celsius, Fahrenheit, and Kelvin with input validation and absolute zero checks.</p>
+            <a href="https://github.com/shaikhamman/OIBSIP/tree/main/WebDev-L1-TempConverter" target="_blank" rel="noopener noreferrer">GitHub Link →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="contact-line"><strong>Name:</strong> Shaikh Mohammad Amman</p>
+        <p class="contact-line"><strong>Email:</strong> contact@example.com</p>
+        <div class="links-row">
+          <a href="https://github.com/shaikhamman/OIBSIP" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Shaikh Mohammad Amman. Oasis Infobyte Internship Project.</p>
+    </div>
+  </footer>
+</body>
+</html>
